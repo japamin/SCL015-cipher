@@ -1,0 +1,35 @@
+body {
+    background: #ffffff;
+   
+    
+
+    
+  }
+h1{
+  font-size: 40px;
+  font-family: didot;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000 ;
+}
+h2{
+
+  font-family: Dynalight; 
+  text-align: left;
+}
+
+h3{
+
+  font-family: Didot;
+  text-align: center;
+}
+
+h4{
+  font-family: Dynalight; 
+  
+
+}
+  
+  
+p {
+    font: small-caps 100%/200% serif;
+  }
