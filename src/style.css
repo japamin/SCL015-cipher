@@ -2,7 +2,7 @@ body {
     background: #ffffff;
    
     
-
+.dark
     
   }
 h1{
@@ -15,6 +15,8 @@ h2{
 
   font-family: Dynalight; 
   text-align: left;
+  display: flex;
+  justify-content: center;
 }
 
 h3{
@@ -26,10 +28,99 @@ h3{
 h4{
   font-family: Dynalight; 
   
-
 }
-  
   
 p {
     font: small-caps 100%/200% serif;
   }
+
+
+ .container-1{
+   float: left;
+ }
+
+
+
+.gallery-area1{
+  display: -webkit- flex;
+  display: -moz- flex;
+  display: -ms- flex;
+  display: -o- flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: reverse;
+  align-items: center;
+  justify-content: center;
+}
+.single-img1{
+   padding: 0 20px 20px;
+}
+img:hover{
+  opacity: .5;
+  transition: .9s;
+}
+
+.container-2{
+  float: left;
+}
+
+
+
+.gallery-area2{
+ display: -webkit- flex;
+ display: -moz- flex;
+ display: -ms- flex;
+ display: -o- flex;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: reverse;
+ align-items: center;
+ justify-content: center;
+}
+.single-img1{
+  padding: 0 20px 20px;
+}
+img:hover{
+ opacity: .5;
+ transition: .9s;
+}
+
+.iconos{
+  
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+}
+
+#CajasIconos{
+  display: flex;
+  justify-content: center
+}
+
+#CajasIconos .iconos img{
+  margin: 10px;
+  width: 36px;
+  height: auto;
+  background-color: rgb(38, 199, 228);
+  border-radius: 51%;
+  padding: 10px;
+}
+
+<!------------noEstaListo---------------->
+
+#CajasDeFotos .container1, .container-2{
+
+
+  display: flex;
+  justify-content: space-between
+}
+
+.contenedor-input. text, Mensaje{
+
+  display: flex;
+  justify-content: space-between
+
+}
+
