@@ -4,9 +4,6 @@ console.log(cipher);
 
 document.getElementById("PaginaCifrado").hidden=true
 
-
-
-
   
 document.getElementById("single-img1").addEventListener("click",function() {
     document.getElementById("CajasDeFotos").hidden=true;
@@ -14,6 +11,11 @@ document.getElementById("single-img1").addEventListener("click",function() {
     
 })
 
+document.getElementById("PaginaDescifrado").hidden=true
 
-
+document.getElementById("single-img2").addEventListener("click",function() {
+    document.getElementById("CajasDeFotos").hidden=true;
+    document.getElementById("PaginaDescifrado").hidden=false;
+    
+})
 
