@@ -85,17 +85,16 @@
                 <button onclick="cipher()" id="encodeBtn">Cifrar</button>
                 <textarea name="container" id="containerTwo" class="container two" rows="6" cols="35"></textarea>
             </aside>
+
+            <form>
+              <input type="button" id="comeButton" value="Volver" >
+            </form>
         
-            <script src="index.js"></script>
          </div> 
        </div>
      </section>
 
-     
-
-
-
-<!-------------------PaginaDondeSeDecifrada--------------------------------------------------->
+    <!-------------------PaginaDondeSeDecifrada--------------------------------------------------->
 
 <section id="PaginaDescifrado" hidden> 
    <h1>Receta Salada</h1>
@@ -113,6 +112,22 @@
        </div>
      </section>
    </div>
+
+<section class="selector">
+<input type="number" id="offset2" min="1" max="3">
+</section>   
+
+<aside class="textContainers">
+  <textarea name="box" id="boxOne" class="box One" rows="6" cols="35"></textarea>
+  <button onclick="descifrado()" id="descifradoBoton">Descifrado</button> 
+  <textarea name="box" id="boxTwo" class="box Two" rows="6" cols="35"></textarea>
+
+
+
+</aside>
+
+
+
   
 </section>
 
@@ -123,7 +138,7 @@
 
  <!----------------InformacionParaElUsuario------------>
 
-
+ <script src="index.js"></script>
  <script> var msg = "Toda la información que necesitas estará en ¿Quiénes Somos?";
    alert(msg)
   

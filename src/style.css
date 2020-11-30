@@ -99,7 +99,7 @@ img:hover{
   justify-content: center
 }
 
-#CajasIconos .iconos img{
+ .iconos img{
   margin: 10px;
   width: 36px;
   height: auto;
